@@ -17,7 +17,7 @@ const CrimeRateModal = ({ visible, location, crimePercentage, onClose }) => {
     >
       <View style={styles.modalOverlay}>
         <View style={styles.modalContent}>
-          <Text style={styles.modalText}>CRIME RATE REPORT</Text>
+          <Text style={styles.modalText}>SAFETY SCORE REPORT</Text>
           <Text style={styles.modalText}>{location}</Text>
           <View
             style={[
